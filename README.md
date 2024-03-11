@@ -1,13 +1,14 @@
-PDF to Speech Converter
+# PDF to Speech Converter
+
 This Python script converts a PDF file into speech, providing an audio representation of the text within the PDF.
 
-Prerequisites
-Before running the script, ensure you have Python installed on your system. You can download Python from the official website.
+## Prerequisites
+
+Before running the script, ensure you have Python installed on your system. You can download Python from the [official website](https://www.python.org/downloads/).
 
 Additionally, install the required Python packages using pip:
 
-bash
-Copy code
+```bash
 pip install PyPDF2 pyttsx3
 Usage
 Clone or download this repository to your local machine.
@@ -32,9 +33,3 @@ engine.setProperty('rate', 150)
 Dependencies
 PyPDF2: A Python library for reading and manipulating PDF files.
 pyttsx3: A text-to-speech conversion library in Python.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-This script was inspired by the need for an accessible way to consume PDF content for individuals with visual impairments.
-Special thanks to the developers of PyPDF2 and pyttsx3 for their excellent libraries.
